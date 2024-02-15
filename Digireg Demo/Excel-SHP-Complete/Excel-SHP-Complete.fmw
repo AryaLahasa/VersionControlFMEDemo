@@ -1,8 +1,8 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command line to run this workspace:
-#        "C:\Program Files\FME\fme.exe" C:\Users\user\AppData\Local\Temp\wb_publish_1707968966728_21748/Excel-SHP-Complete.fmw
-#          --SourceDataset_XLSXR "$(FME_MF_DIR)Startup Data Jakarta.xlsx"
+#        "C:\Program Files\FME\fme.exe" C:\Users\user\AppData\Local\Temp\wb_publish_1707969081623_7608/Excel-SHP-Complete.fmw
+#          --SourceDataset_XLSXR "C:\Users\user\Downloads\Startup Data Jakarta.xlsx"
 #          --DestDataset_FILEGDB "D:\LAHASA\Case Study - Startup Jakarta\RESULTS"
 #          --FME_LAUNCH_VIEWER_APP "YES"
 #    
@@ -14,15 +14,15 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="3459.36 1026.01"
+#!   DOC_EXTENTS="4209.36 1026.01"
 #!   DOC_TOP_LEFT="-1361.26 -357.878"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="23619"
 #!   FME_BULK_MODE_THRESHOLD="2000"
-#!   FME_DOCUMENT_GUID="4d066397-b6ac-4c0d-a97d-5bfdd15aef2d"
-#!   FME_DOCUMENT_PRIORGUID="be076d00-f4d6-447d-813e-e4db0c8605be,daf2f764-eb26-45b7-b589-672b02e676b8,1ae41897-9807-43ca-a6b9-6249d2ff8d23,409917bf-e3df-4cd9-be16-091b6dfb1e27,4864e62d-8a9d-40d0-920b-e37abbff13e5"
+#!   FME_DOCUMENT_GUID="4d1ac672-60b1-4dc4-ac09-74ba8a748e0f"
+#!   FME_DOCUMENT_PRIORGUID="be076d00-f4d6-447d-813e-e4db0c8605be,daf2f764-eb26-45b7-b589-672b02e676b8,1ae41897-9807-43ca-a6b9-6249d2ff8d23,409917bf-e3df-4cd9-be16-091b6dfb1e27,4864e62d-8a9d-40d0-920b-e37abbff13e5,4d066397-b6ac-4c0d-a97d-5bfdd15aef2d"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_NAMES_ENCODING="UTF-8"
@@ -32,7 +32,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2023.1.0.0 (20230825 - Build 23619 - WIN64)"
-#!   LAST_SAVE_DATE="2024-02-15T10:49:26"
+#!   LAST_SAVE_DATE="2024-02-15T10:51:21"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -51,7 +51,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-1678.06 829.84"
+#!   VIEW_POSITION="-827.214 829.84"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="119"
@@ -738,8 +738,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="11"
 #!   FEAT_GEOMTYPE="geodb_point"
-#!   POSITION="1650 -150"
-#!   BOUNDING_RECT="1650 -150 448.09999999999997 71"
+#!   POSITION="2400 -150"
+#!   BOUNDING_RECT="2400 -150 448.09999999999997 71"
 #!   ORDER="500000000000013"
 #!   COLLAPSED="true"
 #!   KEYWORD="FILEGDB_1"
@@ -820,8 +820,52 @@
 #!   VALUE="$(DestDataset_FILEGDB)"
 #! />
 #! <MODIFICATION
+#!   UID=":DatasetMgr_FILEGDB_1:FILEGDB_OUT_DATASET_TEMPLATE_FILEGDB_1"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":DatasetMgr_XLSXR_1:SourceDataset_XLSXR_1"
+#!   VALUE="$(SourceDataset_XLSXR)"
+#! />
+#! <MODIFICATION
 #!   UID=":GlobalParameterMgr:DestDataset_FILEGDB"
-#!   VALUE="$(FME_MF_DIR)RESULTS"
+#!   VALUE="D:\LAHASA\Case Study - Startup Jakarta\RESULTS"
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SERVER_DEST_DIR"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_BACKUP"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_DASHBOARD"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_DATA"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_ENGINE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_LOG"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_SYSTEM"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_TEMP"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_TOPIC_MESSAGE"
+#!   VALUE=""
 #! />
 #! <MODIFICATION
 #!   UID=":GlobalParameterMgr:SourceDataset_XLSXR"
@@ -833,6 +877,10 @@
 #! />
 #! <MODIFICATION
 #!   UID=":WBDoc:LOG_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:SOURCE_ROUTING_FILE"
 #!   VALUE=""
 #! />
 #! </MODIFICATIONS>
@@ -862,7 +910,7 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_XLSXR INCLUDE_WEB_BROWSER%Excel_Files(*.xlsx;*.xlsm;*.xls)|*.xlsx;*.xlsm;*.xls|Excel_Workbook_2007(*.xlsx)|*.xlsx|Excel_Macro_Workbook(*.xlsm)|*.xlsm|Excel_Binary_Workbook_-_Windows_Only(*.xlsb)|*.xlsb|Excel_Workbook_Pre_2007(*.xls)|*.xls|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|All_files(*)|* Source Microsoft Excel File(s):"
-#!   DEFAULT_VALUE="$(FME_MF_DIR)Startup Data Jakarta.xlsx"
+#!   DEFAULT_VALUE="C:\Users\user\Downloads\Startup Data Jakarta.xlsx"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -872,11 +920,11 @@
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <USER_PARAMETERS
-#!   FORM="eyJwYXJhbWV0ZXJzIjpbeyJhY2Nlc3NNb2RlIjoicmVhZCIsImRlZmF1bHRWYWx1ZSI6IiQoRk1FX01GX0RJUilTdGFydHVwIERhdGEgSmFrYXJ0YS54bHN4IiwiZmlsdGVycyI6W3siZGVzY3JpcHRpb24iOiJFeGNlbCBGaWxlcyIsImZpbHRlciI6WyIqLnhsc3giLCIqLnhsc20iLCIqLnhscyJdfSx7ImRlc2NyaXB0aW9uIjoiRXhjZWwgV29ya2Jvb2sgMjAwNyIsImZpbHRlciI6WyIqLnhsc3giXX0seyJkZXNjcmlwdGlvbiI6IkV4Y2VsIE1hY3JvIFdvcmtib29rIiwiZmlsdGVyIjpbIioueGxzbSJdfSx7ImRlc2NyaXB0aW9uIjoiRXhjZWwgQmluYXJ5IFdvcmtib29rIC0gV2luZG93cyBPbmx5IiwiZmlsdGVyIjpbIioueGxzYiJdfSx7ImRlc2NyaXB0aW9uIjoiRXhjZWwgV29ya2Jvb2sgUHJlIDIwMDciLCJmaWx0ZXIiOlsiKi54bHMiXX0seyJkZXNjcmlwdGlvbiI6IkFyY2hpdmUgRmlsZXMiLCJmaWx0ZXIiOlsiKi43eiIsIiouN3ppcCIsIioucmFyIiwiKi5ydnoiLCIqLnRhciIsIioudGFyLmJ6MiIsIioudGFyLmd6IiwiKi50Z3oiLCIqLnppcCIsIiouemlweCJdfSx7ImRlc2NyaXB0aW9uIjoiQ29tcHJlc3NlZCBGaWxlcyIsImZpbHRlciI6WyIqLmJ6MiIsIiouZ3oiXX0seyJkZXNjcmlwdGlvbiI6IkFsbCBmaWxlcyIsImZpbHRlciI6WyIqIl19XSwiaW5jbHVkZVdlYkJyb3dzZXIiOnRydWUsIml0ZW1zVG9TZWxlY3QiOiJmaWxlcyIsIm5hbWUiOiJTb3VyY2VEYXRhc2V0X1hMU1hSIiwicHJvbXB0IjoiU291cmNlIE1pY3Jvc29mdCBFeGNlbCBGaWxlKHMpOiIsInJlcXVpcmVkIjp0cnVlLCJzZWxlY3RNdWx0aXBsZSI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6ZmFsc2UsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiYWNjZXNzTW9kZSI6IndyaXRlIiwiZGVmYXVsdFZhbHVlIjoiRDpcXExBSEFTQVxcQ2FzZSBTdHVkeSAtIFN0YXJ0dXAgSmFrYXJ0YVxcUkVTVUxUUyIsIml0ZW1zVG9TZWxlY3QiOiJmaWxlZ2VvZGIiLCJuYW1lIjoiRGVzdERhdGFzZXRfRklMRUdEQiIsInByb21wdCI6IkZpbGUgR2VvZGF0YWJhc2U6IiwicmVxdWlyZWQiOnRydWUsInNlbGVjdE11bHRpcGxlIjpmYWxzZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6ZmFsc2UsInZhbHVlVHlwZSI6InN0cmluZyJ9XX0="
+#!   FORM="eyJwYXJhbWV0ZXJzIjpbeyJhY2Nlc3NNb2RlIjoicmVhZCIsImRlZmF1bHRWYWx1ZSI6IkM6XFxVc2Vyc1xcdXNlclxcRG93bmxvYWRzXFxTdGFydHVwIERhdGEgSmFrYXJ0YS54bHN4IiwiZmlsdGVycyI6W3siZGVzY3JpcHRpb24iOiJFeGNlbCBGaWxlcyIsImZpbHRlciI6WyIqLnhsc3giLCIqLnhsc20iLCIqLnhscyJdfSx7ImRlc2NyaXB0aW9uIjoiRXhjZWwgV29ya2Jvb2sgMjAwNyIsImZpbHRlciI6WyIqLnhsc3giXX0seyJkZXNjcmlwdGlvbiI6IkV4Y2VsIE1hY3JvIFdvcmtib29rIiwiZmlsdGVyIjpbIioueGxzbSJdfSx7ImRlc2NyaXB0aW9uIjoiRXhjZWwgQmluYXJ5IFdvcmtib29rIC0gV2luZG93cyBPbmx5IiwiZmlsdGVyIjpbIioueGxzYiJdfSx7ImRlc2NyaXB0aW9uIjoiRXhjZWwgV29ya2Jvb2sgUHJlIDIwMDciLCJmaWx0ZXIiOlsiKi54bHMiXX0seyJkZXNjcmlwdGlvbiI6IkFyY2hpdmUgRmlsZXMiLCJmaWx0ZXIiOlsiKi43eiIsIiouN3ppcCIsIioucmFyIiwiKi5ydnoiLCIqLnRhciIsIioudGFyLmJ6MiIsIioudGFyLmd6IiwiKi50Z3oiLCIqLnppcCIsIiouemlweCJdfSx7ImRlc2NyaXB0aW9uIjoiQ29tcHJlc3NlZCBGaWxlcyIsImZpbHRlciI6WyIqLmJ6MiIsIiouZ3oiXX0seyJkZXNjcmlwdGlvbiI6IkFsbCBmaWxlcyIsImZpbHRlciI6WyIqIl19XSwiaW5jbHVkZVdlYkJyb3dzZXIiOnRydWUsIml0ZW1zVG9TZWxlY3QiOiJmaWxlcyIsIm5hbWUiOiJTb3VyY2VEYXRhc2V0X1hMU1hSIiwicHJvbXB0IjoiU291cmNlIE1pY3Jvc29mdCBFeGNlbCBGaWxlKHMpOiIsInJlcXVpcmVkIjp0cnVlLCJzZWxlY3RNdWx0aXBsZSI6dHJ1ZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6ZmFsc2UsInZhbHVlVHlwZSI6InN0cmluZyJ9LHsiYWNjZXNzTW9kZSI6IndyaXRlIiwiZGVmYXVsdFZhbHVlIjoiRDpcXExBSEFTQVxcQ2FzZSBTdHVkeSAtIFN0YXJ0dXAgSmFrYXJ0YVxcUkVTVUxUUyIsIml0ZW1zVG9TZWxlY3QiOiJmaWxlZ2VvZGIiLCJuYW1lIjoiRGVzdERhdGFzZXRfRklMRUdEQiIsInByb21wdCI6IkZpbGUgR2VvZGF0YWJhc2U6IiwicmVxdWlyZWQiOnRydWUsInNlbGVjdE11bHRpcGxlIjpmYWxzZSwic3VwcG9ydGVkVmFsdWVUeXBlcyI6WyJnbG9iYWxQYXJhbWV0ZXIiXSwidHlwZSI6ImZpbGUiLCJ2YWxpZGF0ZUV4aXN0ZW5jZSI6ZmFsc2UsInZhbHVlVHlwZSI6InN0cmluZyJ9XX0="
 #! >
 #! <PARAMETER_INFO>
 #!     <INFO NAME="SourceDataset_XLSXR" 
-#!   DEFAULT_VALUE="$(FME_MF_DIR)Startup Data Jakarta.xlsx"
+#!   DEFAULT_VALUE="C:\Users\user\Downloads\Startup Data Jakarta.xlsx"
 #!   SCOPE="DEPENDENT"
 #!   GENERATED_GUI_LINE="true"
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_XLSXR INCLUDE_WEB_BROWSER%Excel_Files(*.xlsx;*.xlsm;*.xls)|*.xlsx;*.xlsm;*.xls|Excel_Workbook_2007(*.xlsx)|*.xlsx|Excel_Macro_Workbook(*.xlsm)|*.xlsm|Excel_Binary_Workbook_-_Windows_Only(*.xlsb)|*.xlsb|Excel_Workbook_Pre_2007(*.xls)|*.xls|Archive_Files(*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx)|*.7z;*.7zip;*.rar;*.rvz;*.tar;*.tar.bz2;*.tar.gz;*.tgz;*.zip;*.zipx|Compressed_Files(*.bz2;*.gz)|*.bz2;*.gz|All_files(*)|* Source Microsoft Excel File(s):"
@@ -925,10 +973,10 @@
 #! <COMMENT
 #!   IDENTIFIER="16"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;hr { height: 1px; border-width: 0; }&#10;li.unchecked::marker { content: &quot;\2610&quot;; }&#10;li.checked::marker { content: &quot;\2612&quot;; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Segoe UI&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;GDB&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="1746.3763437634373 52.251187511875116"
-#!   TOP_LEFT="1746.3763437634373 52.251187511875116"
-#!   BOTTOM_RIGHT="1893.2523125231248 53.251187511875116"
-#!   BOUNDING_RECT="1746.3763437634373 52.251187511875116 146.87596875968759 -1"
+#!   POSITION="2496.376343763437 52.251187511875116"
+#!   TOP_LEFT="2496.376343763437 52.251187511875116"
+#!   BOTTOM_RIGHT="2643.2523125231246 53.251187511875116"
+#!   BOUNDING_RECT="2496.376343763437 52.251187511875116 146.87596875968759 -1"
 #!   ORDER="500000000000017"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -1092,6 +1140,34 @@
 #!     <XFORM_PARM PARM_NAME="USER_MODIFIED_ATTRIBUTE_TYPES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="18"
+#!   TYPE="Sorter"
+#!   VERSION="3"
+#!   POSITION="1650 -150"
+#!   BOUNDING_RECT="1650 -150 454 71"
+#!   ORDER="500000000000019"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="23619"
+#! >
+#!     <OUTPUT_FEAT NAME="SORTED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="Nama Perusahaan" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tanggal Didirikan" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Alamat" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Tipe" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Slipicon" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Longitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Latitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="SORT_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SORT_PARM" PARM_VALUE="Alamat NATURAL ASCENDING"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
@@ -1125,11 +1201,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="12"
+#!   IDENTIFIER="19"
 #!   SOURCE_NODE="7"
-#!   TARGET_NODE="11"
+#!   TARGET_NODE="18"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -1154,23 +1230,38 @@
 #!   LINK_STYLE_NAME="&lt;Default&gt;"
 #!   EXTRA_POINTS=""
 #! />
+#! <FEAT_LINK
+#!   IDENTIFIER="12"
+#!   SOURCE_NODE="18"
+#!   TARGET_NODE="11"
+#!   SOURCE_PORT_DESC="fo 0 SORTED"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
 #! </FEAT_LINKS>
 #! <BREAKPOINTS>
 #! </BREAKPOINTS>
 #! <ATTR_LINKS>
 #! <ATTR_LINK
-#!   IDENTIFIER="131084"
-#!   SOURCE_NODE="7"
+#!   IDENTIFIER="65548"
+#!   SOURCE_NODE="18"
 #!   TARGET_NODE="11"
-#!   SOURCE_PORT_DESC="ao 0 0 OUTPUT"
-#!   TARGET_PORT_DESC="0"
+#!   SOURCE_PORT_DESC="ao 0 1 SORTED"
+#!   TARGET_PORT_DESC="1"
 #! />
 #! <ATTR_LINK
-#!   IDENTIFIER="65548"
-#!   SOURCE_NODE="7"
+#!   IDENTIFIER="131084"
+#!   SOURCE_NODE="18"
 #!   TARGET_NODE="11"
-#!   SOURCE_PORT_DESC="ao 0 1 OUTPUT"
-#!   TARGET_PORT_DESC="1"
+#!   SOURCE_PORT_DESC="ao 0 0 SORTED"
+#!   TARGET_PORT_DESC="0"
 #! />
 #! </ATTR_LINKS>
 #! <SUBDOCUMENTS>
@@ -1183,7 +1274,7 @@ FME_PYTHON_VERSION ArcGISPro30
 ARCGIS_COMPATIBILITY ARCGISPRO
 GUI IGNORE SourceDataset_XLSXR_1,XLSXR_IN_ADVANCED_XLSXR_1,XLSXR_IN_SCAN_MAX_FEATURES_XLSXR_1,XLSXR_IN_READ_BLANK_AS_XLSXR_1,XLSXR_IN_EXPAND_MERGED_CELLS_XLSXR_1,XLSXR_IN_READ_RASTER_MODE_XLSXR_1,XLSXR_IN_READ_FORM_CONTROLS_XLSXR_1,XLSXR_IN_NETWORK_AUTHENTICATION_XLSXR_1,DestDataset_FILEGDB_1,FILEGDB_OUT_FME_CONNECTION_GROUP_FILEGDB_1,FILEGDB_OUT_OVERWRITE_GEODB_FILEGDB_1,FILEGDB_OUT_DATASET_TEMPLATE_FILEGDB_1,FILEGDB_OUT_FME_GROUP_NAMED1_FILEGDB_1,FILEGDB_OUT_FEATURE_DATASET_HANDLING_FILEGDB_1,FILEGDB_OUT_ADVANCED_FILEGDB_1,FILEGDB_OUT_BEGIN_SQL_FILEGDB_1,FILEGDB_OUT_END_SQL_FILEGDB_1,FILEGDB_OUT_ENABLE_LOAD_ONLY_MODE_FILEGDB_1
 # ============================================================================
-DEFAULT_MACRO SourceDataset_XLSXR $(FME_MF_DIR)Startup Data Jakarta.xlsx
+DEFAULT_MACRO SourceDataset_XLSXR C:\Users\user\Downloads\Startup Data Jakarta.xlsx
 
 DEFAULT_MACRO DestDataset_FILEGDB D:\LAHASA\Case Study - Startup Jakarta\RESULTS
 
@@ -1392,8 +1483,10 @@ FACTORY_DEF * TeeFactory FACTORY_NAME Geocoder_<Rejected> INPUT FEATURE_TYPE Geo
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME { AttributeManager }    INPUT  FEATURE_TYPE Geocoder_Output    MULTI_FEATURE_MODE { NO }    NULL_ATTR_MODE { NO_OP }    ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 4    DEF_VAL_COLUMN 2    NUM_OF_COLUMNS 5    MISSING_INPUT_ATTR_HANDLING RENAME_SET_VALUE REMOVE    ATTR_ACTION { "Company<space>Name" "Nama<space>Perusahaan" "" "varchar<openparen>40<closeparen>" "RENAME_SET_VALUE" }      ATTR_ACTION { "Founded<space>Date" "Tanggal<space>Didirikan" "" "varchar<openparen>11<closeparen>" "RENAME_SET_VALUE" }      ATTR_ACTION { "Address" "Alamat" "<at>Value<openparen>_address<closeparen>" "varchar<openparen>200<closeparen>" "RENAME_SET_VALUE" }      ATTR_ACTION { "Type" "Tipe" "" "varchar<openparen>8<closeparen>" "RENAME_SET_VALUE" }      ATTR_ACTION { "Slipicon?" "Slipicon" "" "varchar<openparen>4<closeparen>" "RENAME_SET_VALUE" }      ATTR_ACTION { "Longitude" "Longitude" "<at>Value<openparen>_longitude<closeparen>" "buffer" "SET_TO" }      ATTR_ACTION { "Latitude" "Latitude" "<at>Value<openparen>_latitude<closeparen>" "varchar<openparen>200<closeparen>" "SET_TO" }      ATTR_ACTION { "_address" "_address" "" "varchar<openparen>200<closeparen>" "REMOVE" }      ATTR_ACTION { "_latitude" "_latitude" "" "varchar<openparen>200<closeparen>" "REMOVE" }      ATTR_ACTION { "_longitude" "_longitude" "" "buffer" "REMOVE" }    OUTPUT { OUTPUT FEATURE_TYPE AttributeManager_OUTPUT        }
 # -------------------------------------------------------------------------
+FACTORY_DEF {*} SortFactory    FACTORY_NAME { Sorter }    INPUT  FEATURE_TYPE AttributeManager_OUTPUT    SORT_ALPHA_AS_UTF8 { YES }    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    SORT_BY { Alamat NATURAL ASCENDING }    OUTPUT { SORTED FEATURE_TYPE Sorter_SORTED          }
+# -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC AttributeManager_OUTPUT TO FILEGDB __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>Nama_Perusahaan<comma>Nama<lt>space<gt>Perusahaan<comma>Tanggal_Didirikan<comma>Tanggal<lt>space<gt>Didirikan<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>StartUp_Jakarta<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Sorter_SORTED TO FILEGDB __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>Nama_Perusahaan<comma>Nama<lt>space<gt>Perusahaan<comma>Tanggal_Didirikan<comma>Tanggal<lt>space<gt>Didirikan<closeparen>,multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>StartUp_Jakarta<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
